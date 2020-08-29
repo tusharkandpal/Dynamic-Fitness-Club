@@ -1,0 +1,147 @@
+/* CSS Reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/bg.jpg');
+}
+header{
+    height: 206px;
+}
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.mid{
+    display: inline-block;
+    width: 68%;
+    position: absolute;
+    background-color: purple;
+    border-radius: 10px;
+    z-index: 1;
+}
+.right{
+    float: right;
+    width: 233px;
+}
+.navbar{
+    text-align: center;
+    
+}
+header img{
+    border-radius: 15px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    display: inline;
+    padding: 15px;
+    margin: 50px;
+    font-size: 25px;
+}
+header a:hover, #active{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border: 3px white solid;
+    border-radius: 15px;
+}
+img{
+   width: 60%;
+}
+#name{
+    font-size: 30px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: white 2px solid;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 94px;
+    display: inline-block;
+    border-radius: 10px;
+}
+main{ 
+    padding: 100px 50px;
+    height: 600px;
+}
+.para{
+    padding: 50px;
+    text-align: justify;
+    font-size: x-large;
+    border: 2px white solid;
+    border-radius: 15px;
+    display: inline-block;
+}
+#para1{
+    width: 450px;
+    margin-left: 50px;
+    margin-right: 200px;
+    text-align: center;
+}
+input{
+    display: block;
+    border-radius: 10px;
+    width: 410px;
+    padding: 2px;
+    margin: 20px auto;
+    font-size: large;
+    text-align: center;
+}
+main .btn{
+    width: 430px;
+}
+#para2{
+    width: 500px;
+    position: absolute;
+    top: 306px;
+}
+li.item{
+    font-size: 25px;
+    padding: 10px;
+}
+#foot{
+    background: url('../img/footer.jpg');
+    display: block;
+    height: 600px;
+}
+#foot #social{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+#foot p{
+    display: inline-block;
+    font-size: x-large;
+}
+#foot img{
+    vertical-align: middle;
+    width: 50px;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+}
+#foot #keys ul{
+    list-style: none;
+    margin: 0 250px;
+}
+#keys li{
+    font-size: xx-large;
+    padding: 6px;
+    text-decoration: underline;
+}
+#foot #ul1{
+    display: block;
+    float: left;
+}
+#foot #ul2{
+    display: block;
+    float: right;
+}
